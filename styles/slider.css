@@ -1,0 +1,9 @@
+slider {
+    margin-top: 0px;
+    width: 100%; 
+    text-align: center; 
+}
+.image-container img {
+    max-width: 100%; 
+    height: auto; 
+}

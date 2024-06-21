@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 14px;
+}
+
+.site-content {
+    flex: 1;
+}
+.content{
+    max-width: 980px; 
+    width: 100%;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 0 20px; 
+}
+
+
+@import "header.css";
+@import "menu.css";
+@import "footer.css";
+@import "header.css";
+@import "slider.css";
+@import "center-content";
